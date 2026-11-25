@@ -1,9 +1,9 @@
 # empulse-examples
 
-Examples for the **EMpulse Street FX Index** API: daily street exchange rates of 116 emerging-market currencies against the US dollar (USDT), with a confidence class and the number of independent market sources on every figure. History since 2022-01-02, updated daily (UTC).
+Examples for the **EMpulse Street FX Index** API: daily street exchange rates of 117 emerging-market currencies against the US dollar (USDT), with a confidence class and the number of independent market sources on every figure. History since 2022-01-02, updated daily (UTC).
 
 * Website: https://empulse.ai/?utm_source=github&utm_medium=marketplace&utm_campaign=listing
-* API docs: https://api.empulse.ai/docs
+* API docs: https://empulse.ai/docs
 * Methodology: https://empulse.ai/methodology?utm_source=github&utm_medium=marketplace&utm_campaign=listing
 * Free key (one minute): https://empulse.ai/?utm_source=github&utm_medium=marketplace&utm_campaign=listing#key
 * MCP server for AI agents: https://api.empulse.ai/mcp (repository: https://github.com/empulse-ai/empulse-mcp)
@@ -22,7 +22,7 @@ curl -H "X-API-Key: $EMPULSE_API_KEY" https://api.empulse.ai/v1/rates/latest
 | `examples/sheets.md` | Google Sheets: `IMPORTDATA` on the CSV endpoint with a free key |
 | `notebooks/official_vs_street_90d.ipynb` | notebook: official vs street over 90 days, one chart |
 
-Set `EMPULSE_API_KEY` in the environment. A free key covers the free currencies and the active currency of your country with a 1-day delay; Pro covers all 116 active currencies, the current day and hourly rates (https://empulse.ai/pricing?utm_source=github&utm_medium=marketplace&utm_campaign=listing).
+Set `EMPULSE_API_KEY` in the environment. A free key covers the free currencies and the active currency of your country with a 1-day delay; Pro covers all 117 active currencies, the current day and hourly rates (https://empulse.ai/pricing?utm_source=github&utm_medium=marketplace&utm_campaign=listing).
 
 ## Fields
 
